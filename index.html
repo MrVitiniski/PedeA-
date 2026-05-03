@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pede Aí</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Pede Aí</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contratar</li>
+                <li>Planos</li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/qr.png" alt="QRCode">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Evite clientes esperando</p>
+                    <p class="product-name">Pede Aí QRCode</p>
+                    <p class="description">
+                        Casa cheia no Happy Hour? Com o Pede Aí é só Scanear e Pedir!
+                    </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/qr2.png" alt="QRCode">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Menu Digital</p>
+                    <p class="product-name">Pede Aí Menu</p>
+                    <p class="description">
+                        Com o Pede Aí Menu, seus clientes tem acesso total ao Menu e ja faz o pedido diretamente atraves do QRcode. Basta Scanear e Pedir!
+                    </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/tablet.png" alt="Tablet">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Agilidade com sua equipe</p>
+                    <p class="product-name">Pede Aí Totem</p>
+                    <p class="description">
+                        Sua equipe ainda usa papel e caneta para anotar pedidos?. Com nosso Toten os pedidos irão
+                        diretamente para a cozinha e/ou bar.
+                    </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- INSERIR AQUI: Seção de Planos -->
+    <section class="plans-section" id="plans">
+        <div class="plans-container">
+            <div class="plan-card">
+                <span class="plan-tag">Básico</span>
+                <h3 class="plan-price">R$ 49<span>/mês</span></h3>
+                <ul class="plan-features">
+                    <li>Menu Digital QR Code</li>
+                    <li>Suporte via Email</li>
+                    <li>Até 50 Produtos</li>
+                </ul>
+                <button class="btn">Assinar</button>
+            </div>
+
+            <div class="plan-card featured">
+                <span class="plan-tag">Pro</span>
+                <h3 class="plan-price">R$ 99<span>/mês</span></h3>
+                <ul class="plan-features">
+                    <li>Reserva Online</li>
+                    <li>Menu Digital QR Code</li>
+                    <li>Suporte via WhastApp</li>
+                    <li>Produtos Ilimitados</li>
+                </ul>
+                <button class="btn">Assinar</button>
+            </div>
+
+            <div class="plan-card">
+                <span class="plan-tag">Premium</span>
+                <h3 class="plan-price">R$ 199<span>/mês</span></h3>
+                <ul class="plan-features">
+                    <li>Totem para sua equipe</li>
+                    <li>Peidos digital</li>
+                    <li>Menu Digital QR Code</li>
+                    <li>Gestão de Estoque</li>
+                    <li>Reserva Online</li>
+                    <li>Domínio Próprio</li>
+                    <li>Suporte 24h</li>
+                </ul>
+                <button class="btn">Assinar</button>
+            </div>
+        </div>
+    </section>
+    <!-- FIM DA SEÇÃO DE PLANOS -->
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-caret-left" viewBox="0 0 16 16">
+                    <path
+                        d="M10 12.796V3.204L4.519 8zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753" />
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path
+                        d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
